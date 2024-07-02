@@ -1,0 +1,61 @@
+What is version control system
+-------------------------------
+
+You can think of a version control system as a kind of database. It lets you save a snapshot of the complete project at ay point in time.
+
+Every change made ri the project files is tracked along with 
+
+> Who made the changes 
+> Why the change was made. (references to problems fixed or features added in the change.)
+
+Later when it is required to take a look at an older snapshot / version VCS shows how exactly it different from the previous one.
+
+
+Version control System  are tools that help teams and track changes in code over time.
+
+
+Why version control system is needed
+------------------------------------
+
+1) Collaboration
+If the developers work on a same project from different regions, it will be hard for them to collaborate without the version control system.
+
+2) Storing Version
+Managing multiple version of a project in your disk can be challenging as it requires storing and organizing a potentially large amount of data.
+
+3) Restoring Previous Version
+Version control system offer the ability to roll back to a previous version if needed. If a mistake or issue is introduced, developer can revert to a known working state of the project.
+
+4) BackUp
+In case system or the disk of the user breaks down and there is no backup all the files will be lost hence version control system should be used.
+
+The type of version control system
+1. Local VCS
+2. Centralized VCS
+3. Distributed VCS (to be used)
+
+GIT
+
+What is GIT
+Git is the distributed VCS
+
+> Git is the distributed version control system widely used id software development
+
+> It allows multiple developers ti work collaboratively on a project
+
+> Can efficiently manage and track changes to the source code.
+
+How Git works
+Git stores its data in a series of snapshots of a miniature filesystem. Every time you commit a change or save your project state, Git takes a snapshot os all your files at that moment and stores a reference to that snapshot.
+
+A git project resides in three sections
+1) The working directory - The single checkout of one version of the project.
+
+2) The Staging Area - An index that stores information about what the next commit will contain.
+
+3) The Git Repository - Th e place where Git stores the metadata and object database for project.
+
+What is GitHub
+----------------
+GitHub is a web-based hosting service and platform that utilizes the Git version control system.
+
